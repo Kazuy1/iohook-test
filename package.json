@@ -1,0 +1,30 @@
+{
+  "name": "iohook-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^13.1.9",
+    "iohook": "^0.9.3"
+  },
+  "iohook": {
+    "arches": [
+      "x64",
+      "ia32"
+    ],
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "targets": [
+      "electron-89",
+      "node-83"
+    ]
+  }
+}
